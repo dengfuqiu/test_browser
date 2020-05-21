@@ -32,9 +32,9 @@ ${Object.keys(this.headers).map(key => `${key}: ${this.headers[key]}`).join('\r\
 ${this.bodyText}`
   }
 
-  open(method, url) {
+  // open(method, url) {
 
-  }
+  // }
 
   send(connection) {
     return new Promise((resolve, reject) => {
@@ -67,9 +67,9 @@ ${this.bodyText}`
   }
 }
 
-class Response {
+// class Response {
 
-}
+// }
 
 class ResponseParser {
   constructor() {
